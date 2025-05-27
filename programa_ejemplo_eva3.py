@@ -1,5 +1,6 @@
 usuarios= {}
 op = 1
+v_variable = 0
 while op < 3:
     usuario_ok=False
     print("1._iniciar sesion:")
@@ -28,6 +29,5 @@ while op < 3:
         case 3:
                 print("Cierre de sesion")              
     if  usuario_ok == True:
-        
 
-print(usuarios)
+        print(usuarios)
